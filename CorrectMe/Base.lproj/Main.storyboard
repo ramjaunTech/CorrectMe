@@ -200,7 +200,7 @@
                                 <rect key="frame" x="16" y="150" width="343" height="58"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="EyC-4q-Yvs" secondAttribute="height" multiplier="343:58" id="1uX-hn-op7"/>
+                                    <constraint firstAttribute="width" secondItem="EyC-4q-Yvs" secondAttribute="height" multiplier="343:58" id="LFv-pK-ZPa"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="29"/>
                                 <state key="normal" title="One Point">
@@ -214,7 +214,7 @@
                                 <rect key="frame" x="16" y="262" width="343" height="58"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="6la-Oh-UTz" secondAttribute="height" multiplier="343:58" id="i8v-Vq-hQH"/>
+                                    <constraint firstAttribute="width" secondItem="6la-Oh-UTz" secondAttribute="height" multiplier="343:58" id="K17-5V-SRy"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="29"/>
                                 <state key="normal" title="Two Points">
@@ -224,26 +224,78 @@
                                     <segue destination="coa-6d-RvL" kind="show" id="kiv-GV-CLW"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pgl-ha-S3h">
+                                <rect key="frame" x="16" y="371" width="343" height="58"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="pgl-ha-S3h" secondAttribute="height" multiplier="343:58" id="rLt-YK-R9o"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="29"/>
+                                <state key="normal" title="Table of Values">
+                                    <color key="titleColor" red="0.72785662780000004" green="1" blue="0.22427821510000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Dws-XM-3bf" kind="show" id="O4g-0W-Jy5"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.1215686277" green="0.1294117719" blue="0.1411764771" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="EyC-4q-Yvs" firstAttribute="leading" secondItem="E5e-Tz-GAt" secondAttribute="leading" constant="16" id="BPy-mq-0sg"/>
-                            <constraint firstItem="E5e-Tz-GAt" firstAttribute="trailing" secondItem="6la-Oh-UTz" secondAttribute="trailing" constant="16" id="LPq-hz-6CD"/>
-                            <constraint firstItem="6la-Oh-UTz" firstAttribute="top" secondItem="EyC-4q-Yvs" secondAttribute="bottom" constant="54" id="Ol9-mm-Tdy"/>
-                            <constraint firstItem="EyC-4q-Yvs" firstAttribute="top" secondItem="E5e-Tz-GAt" secondAttribute="top" constant="86" id="PDK-Hi-X02"/>
-                            <constraint firstItem="6la-Oh-UTz" firstAttribute="leading" secondItem="E5e-Tz-GAt" secondAttribute="leading" constant="16" id="bnD-eJ-iOv"/>
-                            <constraint firstItem="E5e-Tz-GAt" firstAttribute="trailing" secondItem="EyC-4q-Yvs" secondAttribute="trailing" constant="16" id="xW3-V4-I84"/>
+                            <constraint firstItem="EyC-4q-Yvs" firstAttribute="leading" secondItem="E5e-Tz-GAt" secondAttribute="leading" constant="16" id="5m7-96-3wD"/>
+                            <constraint firstItem="E5e-Tz-GAt" firstAttribute="trailing" secondItem="6la-Oh-UTz" secondAttribute="trailing" constant="16" id="7fi-pY-438"/>
+                            <constraint firstItem="E5e-Tz-GAt" firstAttribute="trailing" secondItem="pgl-ha-S3h" secondAttribute="trailing" constant="16" id="9hY-Sp-ykc"/>
+                            <constraint firstItem="E5e-Tz-GAt" firstAttribute="trailing" secondItem="EyC-4q-Yvs" secondAttribute="trailing" constant="16" id="Pkw-gZ-AAg"/>
+                            <constraint firstItem="6la-Oh-UTz" firstAttribute="leading" secondItem="E5e-Tz-GAt" secondAttribute="leading" constant="16" id="bM4-xb-Mfm"/>
+                            <constraint firstItem="EyC-4q-Yvs" firstAttribute="top" secondItem="E5e-Tz-GAt" secondAttribute="top" constant="86" id="gVb-yQ-qhu"/>
+                            <constraint firstItem="6la-Oh-UTz" firstAttribute="top" secondItem="EyC-4q-Yvs" secondAttribute="bottom" constant="54" id="iE7-F1-TLR"/>
+                            <constraint firstItem="pgl-ha-S3h" firstAttribute="top" secondItem="6la-Oh-UTz" secondAttribute="bottom" constant="51" id="oNU-U3-JGH"/>
+                            <constraint firstItem="pgl-ha-S3h" firstAttribute="leading" secondItem="E5e-Tz-GAt" secondAttribute="leading" constant="16" id="xMJ-8g-9XB"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="E5e-Tz-GAt"/>
                     </view>
                     <connections>
                         <outlet property="OnePointsButtonOutlet" destination="6la-Oh-UTz" id="ZmP-oU-i5T"/>
                         <outlet property="TwoPointsButtonOutlet" destination="EyC-4q-Yvs" id="cpq-0Z-BRq"/>
+                        <outlet property="tblofvalues" destination="pgl-ha-S3h" id="Rgp-Eo-dXQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xGb-0K-PD9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1972" y="973"/>
+        </scene>
+        <!--TblofvaluesVC-->
+        <scene sceneID="Yyl-dA-Uhb">
+            <objects>
+                <viewController id="Dws-XM-3bf" customClass="tblofvaluesVC" customModule="CorrectMe" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="p3F-eG-aFM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CC3-sx-XIH">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="CC3-sx-XIH" firstAttribute="leading" secondItem="9LM-1N-0TE" secondAttribute="leading" id="7UU-Vz-7oa"/>
+                            <constraint firstItem="CC3-sx-XIH" firstAttribute="top" secondItem="9LM-1N-0TE" secondAttribute="top" id="Jzm-UV-fXJ"/>
+                            <constraint firstItem="CC3-sx-XIH" firstAttribute="trailing" secondItem="9LM-1N-0TE" secondAttribute="trailing" id="Qgu-Zw-Jc5"/>
+                            <constraint firstItem="CC3-sx-XIH" firstAttribute="bottom" secondItem="9LM-1N-0TE" secondAttribute="bottom" id="lXN-3u-y03"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="9LM-1N-0TE"/>
+                    </view>
+                    <connections>
+                        <outlet property="tbofvalueswebkit" destination="CC3-sx-XIH" id="TNA-1E-ZP3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zSl-WY-hfg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3047.1999999999998" y="1681.7091454272866"/>
         </scene>
         <!--One PointVC-->
         <scene sceneID="2gm-qb-i82">

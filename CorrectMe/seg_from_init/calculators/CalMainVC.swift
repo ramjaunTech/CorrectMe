@@ -12,11 +12,14 @@ class CalMainVC: UIViewController {
 
     @IBOutlet weak var TwoPointsButtonOutlet: UIButton!
    @IBOutlet weak var OnePointsButtonOutlet: UIButton!
+    @IBOutlet weak var tblofvalues: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Calculators"
 TwoPointsButtonOutlet.layer.cornerRadius = 25
         OnePointsButtonOutlet.layer.cornerRadius = 25
+        tblofvalues.layer.cornerRadius = 25
+        
         // Do any additional setup after loading the view.
     }
     

@@ -12,6 +12,7 @@
 		372CA0C2221F355100F0D33D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 372CA0C0221F355100F0D33D /* Main.storyboard */; };
 		372CA0C4221F355300F0D33D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 372CA0C3221F355300F0D33D /* Assets.xcassets */; };
 		372CA0C7221F355300F0D33D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 372CA0C5221F355300F0D33D /* LaunchScreen.storyboard */; };
+		37432EFE223C524300D4D3FD /* tblofvaluesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37432EFD223C524300D4D3FD /* tblofvaluesVC.swift */; };
 		37662ED7221FB7E6004EA55B /* JumpMathCorrectionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37662ED6221FB7E6004EA55B /* JumpMathCorrectionsVC.swift */; };
 		37662ED9221FB825004EA55B /* NelsonCorrectionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37662ED8221FB825004EA55B /* NelsonCorrectionsVC.swift */; };
 		37662EDB221FB844004EA55B /* EQAOCorrectionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37662EDA221FB844004EA55B /* EQAOCorrectionsVC.swift */; };
@@ -39,6 +40,7 @@
 		372CA0C3221F355300F0D33D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		372CA0C6221F355300F0D33D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		372CA0C8221F355300F0D33D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37432EFD223C524300D4D3FD /* tblofvaluesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tblofvaluesVC.swift; sourceTree = "<group>"; };
 		37662ED6221FB7E6004EA55B /* JumpMathCorrectionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpMathCorrectionsVC.swift; sourceTree = "<group>"; };
 		37662ED8221FB825004EA55B /* NelsonCorrectionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NelsonCorrectionsVC.swift; sourceTree = "<group>"; };
 		37662EDA221FB844004EA55B /* EQAOCorrectionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EQAOCorrectionsVC.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 				37662EF922213524004EA55B /* CalMainVC.swift */,
 				37662EFB2221353C004EA55B /* TwoPointsVC.swift */,
 				37662EFD2221354F004EA55B /* OnePointVC.swift */,
+				37432EFD223C524300D4D3FD /* tblofvaluesVC.swift */,
 			);
 			path = calculators;
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 				376EC0272224E1F10070E38C /* Eqao6VC.swift in Sources */,
 				37662ED7221FB7E6004EA55B /* JumpMathCorrectionsVC.swift in Sources */,
 				372CA0BF221F355100F0D33D /* ViewController.swift in Sources */,
+				37432EFE223C524300D4D3FD /* tblofvaluesVC.swift in Sources */,
 				37662EDD221FB85D004EA55B /* WordProblemsVC.swift in Sources */,
 				376EC0292224E2350070E38C /* Eqao9VC.swift in Sources */,
 				372CA0BD221F355100F0D33D /* AppDelegate.swift in Sources */,
