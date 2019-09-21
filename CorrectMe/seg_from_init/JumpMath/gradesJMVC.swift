@@ -38,10 +38,10 @@ class gradesJMVC: UIViewController {
         //custom edits on layout programically for view did load
         GradeIndicatorLabel.clipsToBounds = true
         GradeIndicatorLabel.layer.cornerRadius = 8
-        Part1GradesButton.layer.cornerRadius = 45
+        Part1GradesButton.layer.cornerRadius = 0
         self.Part1GradesButton.backgroundColor = UIColor.orange
         self.Part1GradesButton.tintColor = UIColor.black
-        Part2GradesButton.layer.cornerRadius = 45
+        Part2GradesButton.layer.cornerRadius = 0
         self.Part2GradesButton.backgroundColor = UIColor.orange
         self.Part2GradesButton.tintColor = UIColor.black
         
